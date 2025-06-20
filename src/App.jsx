@@ -5,7 +5,7 @@ import AppRoutes from "./app/routes";
 function App() {
   return (
     <BrowserRouter>
-      {/* <Navbar /> */}
+      <Navbar />
       <AppRoutes />
     </BrowserRouter>
   );
